@@ -1,5 +1,6 @@
 # Projet SI L3 ISIL B 2024
-Ceci est le projet de TP du module SI
+
+A complete management system for a neurological departement in a surgical clinic
 
 ## Installation
 ### Getting the source code
