@@ -28,8 +28,18 @@ pip install django
 `
 pip install -r requirements.txt
 `
-## Running 
-Run using the command:
+## Deployement
+### Migrate
+Run the folowing commands:
+
+`
+python manage.py makemigrations
+python manage.py migrate
+`
+
+### Start the server
+
+Then start the server:
 
 `
 python manage.py runserver
