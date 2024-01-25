@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class=' login center'>
+        <h1>Signin</h1>
+        <input class='input' type='text' placeholder='username'>
+        <input class='input' type='password' placeholder='password'>
+        <label>
+            <input class='cb' type='checkbox'>
+            Remember me
+        </label>
+        <input class='button' type='submit' value='Login'>
+    </div>
+</body>
+</html>
